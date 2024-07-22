@@ -1,5 +1,6 @@
 #include "stats.h"
 #include <iostream>
+#include <climits>
 using namespace Statistics;
 
 Stats Statistics::ComputeStatistics(const std::vector<float>& a) {
